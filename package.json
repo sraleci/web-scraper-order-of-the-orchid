@@ -2,14 +2,13 @@
   "name": "web-scraper-order-of-the-orchid",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "scrape.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node scrape.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.1",
-    "cheerio": "^1.0.0-rc.10"
+    "puppeteer": "^5.5.0"
   }
 }
